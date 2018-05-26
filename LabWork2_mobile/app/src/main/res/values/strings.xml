@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LabWork_2</string>
+    <string-array name="type_select_variants">
+        <item>none</item>
+        <item>Font 1</item>
+        <item>Font 2</item>
+        <item>Font 3</item>
+    </string-array>
+</resources>

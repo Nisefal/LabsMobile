@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LabWork1</string>
+    <string-array name="type_select_variants">
+        <item value="">none</item>
+        <item value="@style/Widget.AppCompat.TextView.SpinnerItem">Font 1</item>
+        <item value="@android:style/Widget.DeviceDefault.Light.TextView">Font 2</item>
+        <item value="@android:style/Widget.TextView.SpinnerItem">Font 3</item>
+    </string-array>
+
+</resources>

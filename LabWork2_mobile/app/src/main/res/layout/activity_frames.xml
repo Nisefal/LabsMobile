@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FramesActivity">
+
+    <fragment
+        android:id="@+id/fragment_input"
+        android:name="InputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-1dp" />
+
+    <fragment
+        android:id="@+id/fragment_output"
+        android:name="OutputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-21dp"
+        tools:layout_editor_absoluteY="-1dp" />
+</LinearLayout>
